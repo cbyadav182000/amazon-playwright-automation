@@ -83,8 +83,8 @@ To run these tests on the LambdaTest Cloud:
 1. **Set Environment Variables**:
    ```bash
    export EXECUTION_ENV="lambdatest"
-   export LT_USERNAME="your_username"
-   export LT_ACCESS_KEY="your_access_key"
+   export LT_USERNAME="cbsoftwarepro"
+   export LT_ACCESS_KEY="LT_WL9c1W12MH3z5DOuoOIYpwc14tRx0OFgKmoHRF6RnYBQITj"
    ```
 2. **Run Tests**:
    ```bash
