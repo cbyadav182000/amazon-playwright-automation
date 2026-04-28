@@ -111,5 +111,25 @@ test_amazon.py
 .
 
 ======================= 2 passed in 28.85s =======================
+admin@Admins-Mac-mini amazon_automation % git push -u origin main --force
+
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 4.85 KiB | 1.21 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/cbyadav182000/amazon-playwright-automation.git
+ + 9f2d22d...69eb02c main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+admin@Admins-Mac-mini amazon_automation % python3 -m pytest test_amazon.py -n 2 -s
+=============================================== test session starts ================================================
+platform darwin -- Python 3.11.7, pytest-8.1.1, pluggy-1.6.0
+rootdir: /Users/admin/Desktop/TestMu AI/amazon_automation
+plugins: langsmith-0.7.26, xdist-3.5.0, anyio-4.13.0
+2 workers [2 items]     
+..
+================================================ 2 passed in 25.45s ================================================
+admin@Admins-Mac-mini amazon_automation % 
 ```
 *Note: Prices will vary based on current Amazon listings and currency.*
